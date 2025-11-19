@@ -6,8 +6,8 @@ const userInput = 45;
 
 const value = Number(userInput);
 if (!isNaN(value)) {
-    console.log("It is number");
+    console.log("It is  number");
 }
 else {
-    console.log("Not number");
+    console.log("Not  number");
 }

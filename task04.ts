@@ -6,4 +6,17 @@
 
 // TODO BONUS: Rewrite with if
 
-const num = 15;
+const num = 7;
+let result = "";
+
+if (num % 3 === 0 && num % 5 === 0) {
+    result = "FizzBuzz";
+} else if (num % 3=== 0){
+    result = "Fizz";
+} else if (num % 5 === 0){
+    result = "Buzz";
+} else {
+    result = "Otherwise";
+}
+
+console.log(result);

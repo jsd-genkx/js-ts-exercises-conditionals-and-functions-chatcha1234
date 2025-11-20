@@ -4,3 +4,17 @@
 // 11+ chars → "Strong"
 
 const password = "pass123";
+
+const len =  password.length;
+let state = "";  // สร้างตัวแปรเก็บ string สำหรับ state
+
+if (len < 6) {
+  state = "Weak";
+} else if (len >= 6 && len <= 10) {
+  state = "Moderate";
+} else {
+  state = "Strong";
+}
+
+
+console.log(state);
